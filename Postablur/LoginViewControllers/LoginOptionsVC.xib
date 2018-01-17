@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginOptionsVC" customModule="Postablur" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Af4-LY-FKU">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1a-mB-rfg">
+                            <rect key="frame" x="0.0" y="78" width="414" height="155"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="postablurLogo" translatesAutoresizingMaskIntoConstraints="NO" id="2jI-hn-0Uh">
+                                    <rect key="frame" x="43.5" y="32.5" width="327" height="90"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="2jI-hn-0Uh" firstAttribute="centerX" secondItem="U1a-mB-rfg" secondAttribute="centerX" id="Mjz-Wb-kPy"/>
+                                <constraint firstItem="2jI-hn-0Uh" firstAttribute="centerY" secondItem="U1a-mB-rfg" secondAttribute="centerY" id="dMB-YB-PQp"/>
+                                <constraint firstItem="2jI-hn-0Uh" firstAttribute="height" secondItem="U1a-mB-rfg" secondAttribute="height" multiplier="90:155" id="nxj-bM-QWf"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVK-RO-S4F">
+                            <rect key="frame" x="57" y="281" width="300" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="SIGN UP">
+                                <color key="titleColor" red="0.95882564780000001" green="0.96892756219999998" blue="0.98468595739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xy-yj-zN6">
+                            <rect key="frame" x="57" y="341" width="300" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.95882564780000001" green="0.96892756219999998" blue="0.98468595739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="LOG IN">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OV4-qS-huM">
+                            <rect key="frame" x="57" y="401" width="300" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.33279931545257568" green="0.67445260286331177" blue="0.93636637926101685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="LOG IN"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0e-Ly-bZH">
+                            <rect key="frame" x="57" y="461" width="300" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.23283883929252625" green="0.34613806009292603" blue="0.60090619325637817" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="LOG IN"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="U1a-mB-rfg" firstAttribute="top" secondItem="Af4-LY-FKU" secondAttribute="top" constant="78" id="M0d-dM-nWx"/>
+                        <constraint firstItem="U1a-mB-rfg" firstAttribute="leading" secondItem="Af4-LY-FKU" secondAttribute="leading" id="N1O-6t-Dfd"/>
+                        <constraint firstAttribute="trailing" secondItem="U1a-mB-rfg" secondAttribute="trailing" id="QPz-x9-vzd"/>
+                        <constraint firstItem="U1a-mB-rfg" firstAttribute="height" secondItem="Af4-LY-FKU" secondAttribute="height" multiplier="155:736" id="pcx-re-0X3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="Af4-LY-FKU" secondAttribute="top" constant="20" id="dLH-3L-aRe"/>
+                <constraint firstItem="Af4-LY-FKU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="k3M-mD-9TB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Af4-LY-FKU" secondAttribute="trailing" id="prH-qt-JfC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Af4-LY-FKU" secondAttribute="bottom" id="vlo-qK-MaI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="postablurLogo" width="327" height="90"/>
+    </resources>
+</document>
